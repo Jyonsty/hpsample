@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>日付</title>
+<style type="text/css">
+.auto-style1 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	border: 1.0pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style2 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: medium;
+	border-right: 1.0pt solid windowtext;
+	border-top: 1.0pt solid windowtext;
+	border-bottom: 1.0pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style3 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-top-style: none;
+	border-top-color: inherit;
+	border-top-width: medium;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style4 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: general;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: medium;
+	border-right: 1.0pt solid windowtext;
+	border-top-style: none;
+	border-top-color: inherit;
+	border-top-width: medium;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style5 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style6 {
+	color: windowtext;
+	font-size: 10.5pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: general;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: medium;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style7 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: general;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: medium;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style8 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style9 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	border-left: 1.0pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom-style: none;
+	border-bottom-color: inherit;
+	border-bottom-width: medium;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style10 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	border-left: 1.0pt solid windowtext;
+	border-right: .5pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style11 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: general;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left: .5pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style12 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left: 1.0pt solid windowtext;
+	border-right: .5pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: .5pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style13 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: general;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left: .5pt solid windowtext;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: 1.0pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.auto-style14 {
+	color: windowtext;
+	font-size: 11.0pt;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 游ゴシック, monospace;
+	text-align: general;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: medium;
+	border-right: 1.0pt solid windowtext;
+	border-top: .5pt solid windowtext;
+	border-bottom: 1.0pt solid windowtext;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+</style>
+</head>
+
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; width: 405pt" width="540">
+	<colgroup>
+		<col style="mso-width-source: userset; mso-width-alt: 2176; width: 51pt" width="68" />
+		<col style="mso-width-source: userset; mso-width-alt: 10240; width: 240pt" width="320" />
+		<col style="mso-width-source: userset; mso-width-alt: 4864; width: 114pt" width="152" />
+	</colgroup>
+	<tr height="19" style="height: 14.25pt">
+		<td class="auto-style1" height="19" style="height: 14.25pt; width: 51pt" width="68">
+		日付</td>
+		<td class="auto-style2" style="width: 240pt" width="320">標題</td>
+		<td class="auto-style2" style="width: 114pt" width="152">発表者</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style3" height="18" style="height: 13.5pt">7月15日</td>
+		<td class="auto-style4">水分補給・高山病防止・靴擦れ防止</td>
+		<td class="auto-style4">三浦裕医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">24日</td>
+		<td class="auto-style6">高山病について・頭の体操</td>
+		<td class="auto-style7">M4　服部</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">25日</td>
+		<td class="auto-style6">大腸ポリープについて</td>
+		<td class="auto-style6">安藤拓也医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">27日</td>
+		<td class="auto-style7">雲</td>
+		<td class="auto-style7">M4　吉田</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">28日</td>
+		<td class="auto-style7">高山病</td>
+		<td class="auto-style7">M4　吉田</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style8" height="36" rowspan="2" style="height: 27.0pt;">
+		30日</td>
+		<td class="auto-style7">高山病について</td>
+		<td class="auto-style7">酒々井眞澄医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style7" height="18" style="height: 13.5pt;">自転車旅について</td>
+		<td class="auto-style7">M2　藤永</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style8" height="36" rowspan="2" style="height: 27.0pt;">
+		31日</td>
+		<td class="auto-style7">高山病</td>
+		<td class="auto-style7">M3　桑江</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style7" height="18" style="height: 13.5pt;">自転車旅と登山</td>
+		<td class="auto-style7">M2　藤永</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">8月1日</td>
+		<td class="auto-style7">高山病</td>
+		<td class="auto-style6">松浦武志医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style9" height="36" rowspan="2" style="height: 27.0pt;">
+		3日</td>
+		<td class="auto-style7">高山病</td>
+		<td class="auto-style7">M3　吉田</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style7" height="18" style="height: 13.5pt;">脳卒中について</td>
+		<td class="auto-style7">石井克彦救急救命士</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style9" height="36" rowspan="2" style="height: 27.0pt;">
+		4日</td>
+		<td class="auto-style7">骨盤と登山</td>
+		<td class="auto-style7">M5　内藤</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style7" height="18" style="height: 13.5pt;">高山病について</td>
+		<td class="auto-style7">M3　船坂、M3吉田</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style8" height="36" rowspan="2" style="height: 27.0pt;">
+		5日</td>
+		<td class="auto-style7">高山病</td>
+		<td class="auto-style7">M2　福冨</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style7" height="18" style="height: 13.5pt;">ほし</td>
+		<td class="auto-style7">M3　齋藤</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">6日</td>
+		<td class="auto-style7">呼吸と酸素</td>
+		<td class="auto-style7">薊隆文医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="36" rowspan="2" style="height: 27.0pt;">
+		10日</td>
+		<td class="auto-style11">高山病</td>
+		<td class="auto-style7">N1　古道</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">バレエについて</td>
+		<td class="auto-style7">N1　村田</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style5" height="18" style="height: 13.5pt;">11日</td>
+		<td class="auto-style7">腸内細菌について</td>
+		<td class="auto-style6">赤津裕康医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="36" rowspan="2" style="height: 27.0pt;">
+		12日</td>
+		<td class="auto-style11">高山病について</td>
+		<td class="auto-style7">M1　岩瀬</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">お盆について</td>
+		<td class="auto-style7">N2　大谷</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="36" rowspan="2" style="height: 27.0pt;">
+		14日</td>
+		<td class="auto-style11">高山病</td>
+		<td class="auto-style7">M1　永野</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">星座と流星群</td>
+		<td class="auto-style7">M1　中野</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="54" rowspan="3" style="height: 40.5pt;">
+		15日</td>
+		<td class="auto-style11">登りで攣りやすい筋肉、予防法と対処法</td>
+		<td class="auto-style6">藤堂庫治理学療法士</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">高山病</td>
+		<td class="auto-style6">M1　田中</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">星について</td>
+		<td class="auto-style6">M1　安藤</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style12" height="18" style="height: 13.5pt;">17日</td>
+		<td class="auto-style6">登山家のためのちょっと詳しい高山病講座＋沖縄</td>
+		<td class="auto-style7">小山智士医師</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="36" rowspan="2" style="height: 27.0pt;">
+		18日</td>
+		<td class="auto-style11">高山病</td>
+		<td class="auto-style7">N1　浅野</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">星</td>
+		<td class="auto-style7">N1　髙田</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="36" rowspan="2" style="height: 27.0pt;">
+		19日</td>
+		<td class="auto-style11">高山病</td>
+		<td class="auto-style7">M1　後藤</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style11" height="18" style="height: 13.5pt;">水彩色鉛筆のススメ</td>
+		<td class="auto-style7">M1　梅村</td>
+	</tr>
+	<tr height="18" style="height: 13.5pt">
+		<td class="auto-style10" height="37" rowspan="2" style="height: 27.75pt;">
+		20日</td>
+		<td class="auto-style11">高山病について</td>
+		<td class="auto-style7">M1　ストックウェル</td>
+	</tr>
+	<tr height="19" style="height: 14.25pt">
+		<td class="auto-style13" height="19" style="height: 14.25pt;">星について</td>
+		<td class="auto-style14">N1　藤原</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
